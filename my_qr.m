@@ -1,4 +1,4 @@
-% Copyright ? MVMMCD: Model 2-D Convection 
+% Copyright © MVMMCD: Model 2-D Convection 
 % Diffusion Operator - All Rights Reserved
 % Unauthorized copying of this file, via any medium is strictly prohibited
 %
@@ -6,7 +6,8 @@
 %
 % Written by Martin Purita <martinpurita@gmail.com>, 
 % Facundo Menzella <facumenzella@gmail.com>, Felipe Martinez 
-% <fmart318@hotmail.com>, October 2014
+% <fmart318@hotmail.com>, Braulio Sespede <braulio.sespede@gmail.com>,
+% October 2014
 %
 function [Q R] = qr(A)
     cols = size(A, 2);
